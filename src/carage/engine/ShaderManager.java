@@ -2,7 +2,7 @@ package carage.engine;
 
 import java.util.HashMap;
 
-import lenz.opengl.utils.ShaderProgram;
+import carage.engine.utils.ShaderProgram;
 
 public class ShaderManager {
 	
@@ -28,6 +28,7 @@ public static final String FRAGMENT_SHADER_FORMAT = "f";
 		if (!shaders.containsKey(resource)) {
 			return add(resource);
 		}
+
 		// Already there, just return the geometry!
 		return shaders.get(resource);
 	}
@@ -35,8 +36,6 @@ public static final String FRAGMENT_SHADER_FORMAT = "f";
 	/**
 	 * Forwards to load(), as load() will return the loaded ShaderProgram
 	 * and only actually load one if it isn't present already.
-	 * @param resource
-	 * @return
 	 */
 	public ShaderProgram get(String resource) {
 		return load(resource);

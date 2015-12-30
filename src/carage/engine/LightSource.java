@@ -1,8 +1,7 @@
 package carage.engine;
 
-import static org.lwjgl.opengl.GL20.glUniform1f;
-import static org.lwjgl.opengl.GL20.glUniform3f;
-import lenz.opengl.utils.ShaderProgram;
+import static org.lwjgl.opengl.GL20.*;
+import carage.engine.utils.ShaderProgram;
 
 // http://www.gamedev.net/page/resources/_/technical/opengl/the-basics-of-glsl-40-shaders-r2861
 public class LightSource extends Entity {
@@ -56,6 +55,7 @@ public class LightSource extends Entity {
 		if ((location = shader.getUniformLocation("lightPosition")) != -1) {
 			glUniform3f(location, position.x, position.y, position.z);
 		}
+
 		if ((location = shader.getUniformLocation("lightIntensity")) != -1) {
 			glUniform1f(location, ((isOn) ? intensity : 0f));
 		}

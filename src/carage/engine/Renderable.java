@@ -1,9 +1,9 @@
 package carage.engine;
 
-import lenz.opengl.utils.ShaderProgram;
-import lenz.opengl.utils.Texture;
-
 import org.lwjgl.util.vector.Matrix4f;
+
+import carage.engine.utils.ShaderProgram;
+import carage.engine.utils.Texture;
 
 public interface Renderable {
 

@@ -42,7 +42,7 @@ Our own (additional) goals
 - ~~Simple materials to set amb./diff./spec. reflectivity per object~~ **✓**
 - ~~A central Renderer instead of objects that draw themselves~~ **✓**
 - Throw exceptions instead of silently tolerating broken data
-- Get rid of `AbstractSimpleBase`; write own versions of the `lenz` code
+- ~~Get rid of `AbstractSimpleBase`; write own versions of the `lenz` code **✓**
 - Ability to have more than one light source
 - Light attenuation with distance, maybe
 - Ability to have more than one texture / material per asset

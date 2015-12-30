@@ -1,8 +1,7 @@
 package carage.engine;
 
-import static org.lwjgl.opengl.GL20.glUniform1f;
-import static org.lwjgl.opengl.GL20.glUniform1i;
-import lenz.opengl.utils.ShaderProgram;
+import static org.lwjgl.opengl.GL20.*;
+import carage.engine.utils.ShaderProgram;
 
 public class Material {
 	

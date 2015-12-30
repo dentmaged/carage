@@ -1,18 +1,10 @@
 package carage.engine;
 
-import static org.lwjgl.opengl.GL11.GL_TEXTURE_2D;
-import static org.lwjgl.opengl.GL11.GL_TRIANGLES;
-import static org.lwjgl.opengl.GL11.GL_UNSIGNED_INT;
-import static org.lwjgl.opengl.GL11.glBindTexture;
-import static org.lwjgl.opengl.GL11.glDrawArrays;
-import static org.lwjgl.opengl.GL11.glDrawElements;
-import static org.lwjgl.opengl.GL13.GL_TEXTURE0;
-import static org.lwjgl.opengl.GL13.glActiveTexture;
-import static org.lwjgl.opengl.GL30.glBindVertexArray;
+import static org.lwjgl.opengl.GL11.*;
+import static org.lwjgl.opengl.GL13.*;
+import static org.lwjgl.opengl.GL30.*;
 
 import java.nio.FloatBuffer;
-
-import lenz.opengl.utils.ShaderProgram;
 
 import org.lwjgl.BufferUtils;
 import org.lwjgl.util.vector.Matrix4f;
@@ -23,6 +15,7 @@ import carage.engine.matrix.ModelViewProjectionMatrix;
 import carage.engine.matrix.NormalMatrix;
 import carage.engine.matrix.ProjectionMatrix;
 import carage.engine.matrix.ViewMatrix;
+import carage.engine.utils.ShaderProgram;
 
 public class Renderer {
 	

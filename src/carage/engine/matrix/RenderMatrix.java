@@ -1,13 +1,13 @@
 package carage.engine.matrix;
 
-import static org.lwjgl.opengl.GL20.glUniformMatrix4;
+import static org.lwjgl.opengl.GL20.*;
 
 import java.nio.FloatBuffer;
 
-import lenz.opengl.utils.ShaderProgram;
-
 import org.lwjgl.BufferUtils;
 import org.lwjgl.util.vector.Matrix4f;
+
+import carage.engine.utils.ShaderProgram;
 
 @SuppressWarnings("serial")
 public class RenderMatrix extends Matrix4f {

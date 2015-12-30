@@ -1,7 +1,7 @@
 package carage.engine;
 
-import lenz.opengl.utils.ShaderProgram;
-import lenz.opengl.utils.Texture;
+import carage.engine.utils.ShaderProgram;
+import carage.engine.utils.Texture;
 
 public class Asset extends Entity implements Renderable {
 	
