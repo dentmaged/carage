@@ -1,4 +1,4 @@
-#version 130
+#version 410
 
 in vec3 pass_Position;
 in vec4 pass_Color;

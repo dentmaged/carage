@@ -8,3 +8,8 @@ bin/*
 .classpath
 # ignore dropbox meta file, if any
 .dropbox
+/bin/
+
+.DS_Store
+.classpath
+.project

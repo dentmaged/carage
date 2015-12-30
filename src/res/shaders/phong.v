@@ -1,4 +1,4 @@
-#version 130
+#version 410
 
 in vec4 in_Position;
 in vec3 in_Color;
